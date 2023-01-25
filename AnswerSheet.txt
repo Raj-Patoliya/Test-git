@@ -51,8 +51,12 @@ git pull origin develop
 -------------------------------------------------------------------
 touch temp.txt
 
-11 Create Pull request as Follow => your branch to develop, develop to master, master to stage,
-stage to production
+git add .
+
+git commit -m "commit after pulling develop branch and creation of temp.txt file"
+
+11 Create Pull request as Follow => your branch to develop, develop to master, master to stage,stage to production
+
 12 Create a branch name with fix-title follow all the neccessary commands
 13 Change the title to `My title`14 Create a branch name with fix-title-001 follow all the neccessary commands
 15 Change the title to`My title 001`
