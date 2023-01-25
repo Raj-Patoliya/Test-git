@@ -44,7 +44,13 @@ git commit -am "closing issues,close #1"
 
 
 9 Pull develop branch to your branch
+-------------------------------------------------------------------
+git pull origin develop
+
 10 Add file and commit the file with commit message
+-------------------------------------------------------------------
+touch temp.txt
+
 11 Create Pull request as Follow => your branch to develop, develop to master, master to stage,
 stage to production
 12 Create a branch name with fix-title follow all the neccessary commands
