@@ -17,11 +17,32 @@ git config --global user.name "Raj-Patoliya"
 git config --global user.email "rjpeace888@gmail.com"
 
 5 Create branches (develop, stage, production)
+---------------------------------------------------------------
+git checkout -b develop
+git checkout -b stage
+git checkout -b production
+
 6 Create a issue (title: `Give title of project “My git pratical”` ,
 description `Please create index.html file and add h1 tag with “My git pratical` and
 description”`)
+
+
+
 7 Create a branch name with fix-issue-001
+---------------------------------------------------------------
+git checkout -b production
+
+
 8 Fix the issue as per issue description
+---------------------------------------------------------------
+touch index.html
+
+git add index.html 
+
+git commit -am "closing issues,close #1"
+
+
+
 9 Pull develop branch to your branch
 10 Add file and commit the file with commit message
 11 Create Pull request as Follow => your branch to develop, develop to master, master to stage,
